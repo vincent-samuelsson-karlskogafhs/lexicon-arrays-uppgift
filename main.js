@@ -14,6 +14,17 @@ console.log(
 
 // Uppgift 2: Hämta sista elementet från arryen (Ta commando över sista clon armen(Army35))
 // För att göra det måste vi skapa en order (Ge commando) - Lengt betyder hur lång är din arry (- 1 betyder att du börjar från start - men hamnar i slutet av listan)
-const giveOrderToLastArmy = armyNumber[armyNumber.length - 1];
-// Här ger ger du iväg ordern och då ska det stå i console log arme35, då det är den sista armen i din lenght - lista.
-console.log("Captain REX give this orders to the,", giveOrderToLastArmy);
+
+// Vi har förlorat en arme i yttre rymden - Armen på dagoba är borta - Ta bort den från listan.
+const ourArmy = ["Naboo", "Corusant", "Dagobha"];
+
+// Använd pop() för att ta bort och returnera det sista elementet i arrayen
+const removedArmy = ourArmy.pop();
+console.log("Removed Army:", removedArmy);
+
+// Använd shift() för att ta bort och returnera det första elementet i arrayen
+const lookForArmy = ourArmy.shift();
+console.log("Look for Army:", lookForArmy);
+
+// Nu kommer testArmyNumber att vara ["egypt"]
+console.log("Remaining Armies:", ourArmy);
