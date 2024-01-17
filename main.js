@@ -16,9 +16,10 @@ console.log(
 // För att göra det måste vi skapa en order (Ge commando) - Lengt betyder hur lång är din arry (- 1 betyder att du börjar från start - men hamnar i slutet av listan)
 
 // Vi har förlorat en arme i yttre rymden - Armen på dagoba är borta - Ta bort den från listan.
-const ourArmy = ["Naboo", "Corusant", "Dagobha"];
+const ourArmy = ["NabooArmy", "CorusantArmy", "DagobhaArmy"];
 
 // Använd pop() för att ta bort och returnera det sista elementet i arrayen
+// Vi säger till JS att göra något const removedArmy och den ska leta i ourArmy
 const removedArmy = ourArmy.pop();
 console.log("Removed Army:", removedArmy);
 
@@ -26,5 +27,23 @@ console.log("Removed Army:", removedArmy);
 const lookForArmy = ourArmy.shift();
 console.log("Look for Army:", lookForArmy);
 
-// Nu kommer testArmyNumber att vara ["egypt"]
+// Nu kommer ourArmy att vara ["CorusantArmy"]
 console.log("Remaining Armies:", ourArmy);
+
+// uppgift 3
+
+const numbers = [1, 2, 3, 4, 5];
+const store4thelement = numbers[3];
+console.log("stored number", store4thelement);
+
+//uppgift 4
+
+// skapa array
+const numbers2And5 = [1, 2, 3, 4, 5];
+// Vilka ska vi kolla (store) efter
+const storeNrTwo = numbers[1];
+const storeNrFive = numbers[4];
+// Skapa en ny function (array) och säg vad det finns i den
+const show2And5 = [storeNrTwo, storeNrFive];
+// här säger vi att vi enbart vill se det vi har sparat (store) och vi vill enbart visa 2 och 5
+console.log("logged NRTWO and NRFIVE", show2And5);
