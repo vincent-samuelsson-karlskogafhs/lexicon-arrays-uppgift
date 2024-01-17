@@ -47,3 +47,11 @@ const storeNrFive = numbers[4];
 const show2And5 = [storeNrTwo, storeNrFive];
 // här säger vi att vi enbart vill se det vi har sparat (store) och vi vill enbart visa 2 och 5
 console.log("logged NRTWO and NRFIVE", show2And5);
+
+// Uppgift 5
+// Här skapar vi en arry och bestämger hur långt den ska vara för lenght som är i uppgiften
+const lengthNumbers = [1, 2, 3, 4, 5];
+// hör skapar vi en function och säger att den ska använda length numbers och använd lenght. (stored)
+const findLenghtNumbers = lengthNumbers.length;
+// Här ska den hitta nr 5
+console.log("Found arrys length numbers", findLenghtNumbers);
