@@ -57,12 +57,27 @@
 // console.log("Found arrys length numbers", findLenghtNumbers);
 
 //uppgift 6
+// let numbers = [1, 2, 3, 4, 5];
+
+// let newNumber = 10;
+// let newLenght = numbers.push(newNumber);
+
+// console.log("ny arry"), newNumber;
+// console.log("ny längd"), newLenght;
+
+// //upggift 7
+
+// let numbers = [1, 2, 3, 4, 5];
+// let arbitraryNumberBe = 0;
+// let newLenght = numbers.unshift(arbitraryNumberBe);
+// // vi ska hämta det ifrån
+
+// console.log("new arry"), numbers;
+// console.log("new lenght"), newLenght;
+
 let numbers = [1, 2, 3, 4, 5];
 
-let newNumber = 10;
-let newLenght = numbers.push(newNumber);
+let removedElement = numbers.pop();
 
-console.log("ny arry"), newNumber;
-console.log("ny längd"), newLenght;
-
-//upggift 7
+console.log("updated arrays", numbers);
+console.log("Removed element", removedElement);
