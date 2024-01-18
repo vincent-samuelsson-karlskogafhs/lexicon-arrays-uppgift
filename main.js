@@ -62,8 +62,8 @@
 // let newNumber = 10;
 // let newLenght = numbers.push(newNumber);
 
-// console.log("ny arry"), newNumber;
-// console.log("ny längd"), newLenght;
+// console.log("ny arry", newNumber);
+// console.log("ny längd", newLenght);
 
 // //upggift 7
 
@@ -72,12 +72,26 @@
 // let newLenght = numbers.unshift(arbitraryNumberBe);
 // // vi ska hämta det ifrån
 
-// console.log("new arry"), numbers;
-// console.log("new lenght"), newLenght;
+// console.log("new arry", numbers);
+// console.log("new lenght", newLenght);
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let removedElement = numbers.pop();
+
+// console.log("updated arrays", numbers);
+// console.log("Removed element", removedElement);
+
+// uppgift 8
+// let numbers = [1, 2, 3, 4, 5];
+
+// let removedElement = numbers.shift();
+
+// console.log("Updated array", numbers);
+// console.log("Removed Element", removedElement);
+
+// uppgift 9
 
 let numbers = [1, 2, 3, 4, 5];
 
-let removedElement = numbers.pop();
-
-console.log("updated arrays", numbers);
-console.log("Removed element", removedElement);
+console.log("nuvarande arrays", numbers);
